@@ -20,12 +20,11 @@ function showCountries(){
                 cardImage.src=country.flags.png;
                 countryCard.innerHTML = country.name.common;
                 countryCard.appendChild(cardImage);
-
-
                 feed.appendChild(countryCard);
             });
         }
     }
+    
     xhr.send();
 
 }
